@@ -1,0 +1,38 @@
+{
+  "name": "modclean-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmarking utility for ModClean",
+  "bin": {
+    "modclean-benchmark": "./bin/benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleRoss/modclean-benchmark.git"
+  },
+  "keywords": [
+    "modclean",
+    "benchmark",
+    "module",
+    "cleanup"
+  ],
+  "author": "Kyle Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleRoss/modclean-benchmark/issues"
+  },
+  "homepage": "https://github.com/KyleRoss/modclean-benchmark",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cli-spinner": "^0.2.0",
+    "cli-table": "git+https://github.com/telerik/cli-table.git",
+    "colors": "^1.0.3",
+    "commander": "^2.8.1",
+    "du": "^0.1.0",
+    "fs-extra": "^0.18.2",
+    "humanize": "0.0.9",
+    "modclean": "^1.1.2",
+    "moment": "^2.10.2",
+    "node-dir": "^0.1.6",
+    "npm": "^2.8.4"
+  }
+}
