@@ -1,13 +1,13 @@
 {
   "name": "modclean-benchmark",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Benchmarking utility for ModClean",
   "bin": {
     "modclean-benchmark": "./bin/benchmark.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KyleRoss/modclean-benchmark.git"
+    "url": "https://github.com/ModClean/modclean-benchmark.git"
   },
   "keywords": [
     "modclean",
@@ -18,21 +18,22 @@
   "author": "Kyle Ross",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KyleRoss/modclean-benchmark/issues"
+    "url": "https://github.com/ModClean/modclean-benchmark/issues"
   },
-  "homepage": "https://github.com/KyleRoss/modclean-benchmark",
+  "homepage": "https://github.com/ModClean/modclean-benchmark",
   "dependencies": {
-    "async": "^0.9.0",
-    "cli-spinner": "^0.2.0",
-    "cli-table": "git+https://github.com/telerik/cli-table.git",
-    "colors": "^1.0.3",
-    "commander": "^2.8.1",
+    "async": "^2.1.4",
+    "chalk": "^1.1.3",
+    "cli-table2": "^0.2.0",
+    "commander": "^2.9.0",
+    "dev-null": "^0.1.1",
     "du": "^0.1.0",
-    "fs-extra": "^0.18.2",
+    "fs-extra": "^1.0.0",
     "humanize": "0.0.9",
-    "modclean": "^1.1.2",
-    "moment": "^2.10.2",
+    "modclean": "^2.0.0",
+    "moment": "^2.17.1",
     "node-dir": "^0.1.6",
-    "npm": "^2.8.4"
+    "npm": "^4.0.5",
+    "ora": "^0.4.1"
   }
 }
