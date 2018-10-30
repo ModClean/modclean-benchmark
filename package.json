@@ -1,13 +1,13 @@
 {
   "name": "modclean-benchmark",
-  "version": "2.0.0",
+  "version": "3.0.0-alpha.1",
   "description": "Benchmarking utility for ModClean",
   "bin": {
-    "modclean-benchmark": "./bin/benchmark.js"
+    "modclean-benchmark": "./bin/modclean-benchmark.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ModClean/modclean-benchmark.git"
+    "url": "https://github.com/ModClean/modclean-benchmark/tree/3.0.0-dev"
   },
   "keywords": [
     "modclean",
@@ -20,20 +20,20 @@
   "bugs": {
     "url": "https://github.com/ModClean/modclean-benchmark/issues"
   },
-  "homepage": "https://github.com/ModClean/modclean-benchmark",
+  "homepage": "https://github.com/ModClean/modclean-benchmark/tree/3.0.0-dev",
   "dependencies": {
-    "async": "^2.1.4",
-    "chalk": "^1.1.3",
-    "cli-table2": "^0.2.0",
-    "commander": "^2.9.0",
-    "dev-null": "^0.1.1",
+    "await-handler": "^1.1.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
     "du": "^0.1.0",
-    "fs-extra": "^1.0.0",
+    "fs-extra": "^6.0.1",
     "humanize": "0.0.9",
-    "modclean": "^2.0.0",
-    "moment": "^2.17.1",
-    "node-dir": "^0.1.6",
-    "npm": "^4.0.5",
-    "ora": "^0.4.1"
+    "markdown-table": "^1.1.2",
+    "modclean": "^3.0.0-beta.1",
+    "moment": "^2.22.1",
+    "node-dir": "^0.1.17",
+    "ora": "^2.1.0",
+    "strip-ansi": "^4.0.0",
+    "systeminformation": "^3.41.3"
   }
 }
