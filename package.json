@@ -27,7 +27,7 @@
     "cli-table2": "^0.2.0",
     "commander": "^2.9.0",
     "dev-null": "^0.1.1",
-    "du": "^0.1.0",
+    "du": "^1.0.0",
     "fs-extra": "^1.0.0",
     "humanize": "0.0.9",
     "modclean": "^2.0.0",
